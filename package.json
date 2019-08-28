@@ -1,0 +1,30 @@
+{
+  "name": "gt-hwk13-bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mezran/GT-Hwk13-bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mezran/GT-Hwk13-bamazon/issues"
+  },
+  "homepage": "https://github.com/Mezran/GT-Hwk13-bamazon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.16.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}

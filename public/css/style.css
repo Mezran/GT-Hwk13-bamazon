@@ -1,0 +1,30 @@
+.navbar{
+  overflow: hidden;
+  position: relative;
+}
+
+span{
+  float:left;
+  position:relative;
+  text-align: center;
+}
+
+.navbar a {
+  position:relative;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main{
+  height: 200px;
+  padding:10px;
+  background-color:lightgrey;
+}
+
+.footer{
+  background-color: grey;
+  padding: 10px;
+}
