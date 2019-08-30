@@ -4,23 +4,209 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <link rel="stylesheet" href="./css/reset.css">
+  <!-- <link rel="stylesheet" href="./css/reset.css"> -->
   <link rel="stylesheet" href="./css/style.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <!--load all styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
-<div class="navbar">
-  <span><p>Welcome to Bamazon</p></span>
-  <a href="#">Cart</a>
-</div>
+  <!-- jumboTron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">BAM-azon</h1>
+      <p class="lead">Here at BAM-azon, we like things that go boom...</p>
+    </div>
+  </div>
 
-<div class="main">
-<p>Main content</p>
-</div>
+  <div class="card-columns">
+    <div class="card">
+      <img src="./img/rc.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Roman Candle</h5>
+        <p class="card-text" id='t1'>Total in stock: </p>
+        <p class="card-text" id="p1">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b1" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/pp.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Party Poper</h5>
+        <p class="card-text" id="t2">Total in stock: </p>
+        <p class="card-text" id="p2">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b2" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/sp.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sparkler</h5>
+        <p class="card-text" id="t3">Total in stock: </p>
+        <p class="card-text" id="p3">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b3" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/cake.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cake</h5>
+        <p class="card-text" id="t4">Total in stock: </p>
+        <p class="card-text" id="p4">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b4" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/cw.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Catherine Wheel</h5>
+        <p class="card-text" id="t5">Total in stock: </p>
+        <p class="card-text" id="p5">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b5" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/ab.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Airbomb</h5>
+        <p class="card-text" id="t6">Total in stock: </p>
+        <p class="card-text" id="p6">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b6" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/jb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Junda' Belt</h5>
+        <p class="card-text" id="t7">Total in stock: </p>
+        <p class="card-text" id="p7">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b7" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/qs.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Quarter Stick</h5>
+        <p class="card-text" id="t8">Total in stock: </p>
+        <p class="card-text" id="p8">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b8" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./img/cb.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cherry Bomb</h5>
+        <p class="card-text" id="t9">Total in stock: </p>
+        <p class="card-text" id="p9">Price: </p>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Amount to purchase</span>
+          </div>
+          <input type="text" id="a9" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <a href="#" id="b9" class="btn btn-primary">One click buy!</a>
+      </div>
+    </div>
+  </div>
 
-<div class="footer">
-  <p>Footer</p>
-</div>
+
+  <script>
+    // get prices
+    function updatePriceAndQuantity() {
+      $.post('/api/update')
+        .then(function(data) {
+          console.log(data);
+
+          for (let i = 1; i < 10; i++) {
+            console.log(i);
+            $(`#t${i}`).text(`Total in stock: ${data[i-1].stockQuantity}`);
+            $(`#p${i}`).text(`Price: ${data[i-1].price}`);
+          }
+
+
+        })
+    } // end function updatePriceAndQuantity
+
+    updatePriceAndQuantity();
+
+    $(document).on("click", ".btn", function(e){
+      // console.log(e.currentTarget.id);
+      let idToSearch = e.currentTarget.id.split('b')[1];
+      let quantity = $(`#a${idToSearch}`).val();
+
+      let valToSend = {
+        idToSearch: idToSearch,
+        quantity: quantity
+      }
+
+      console.log(idToSearch)
+      console.log(quantity);
+
+      $.post('/api/placeOrder', valToSend)
+      .then(function(data){
+        console.log(data);
+        updatePriceAndQuantity();
+      })
+
+
+      // console.log(idToSearch);
+      // console.log(idToSearch[1]);
+
+
+    })
+
+  </script>
+
 </body>
 
 </html>
