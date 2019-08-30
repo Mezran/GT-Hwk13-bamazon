@@ -4,7 +4,7 @@ const path = require('path');
 
 // create node server
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 //require models for synching
 const db = require('./models');
