@@ -189,12 +189,9 @@
         quantity: quantity
       }
 
-      console.log(idToSearch)
-      console.log(quantity);
-
       $.post('/api/placeOrder', valToSend)
       .then(function(data){
-        console.log(data);
+        alert(data.message)
         updatePriceAndQuantity();
       })
 
