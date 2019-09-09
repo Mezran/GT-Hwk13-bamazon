@@ -11,18 +11,81 @@ module.exports = {
     // Example:
     let products = [];
 
-    for (let i = 0; i < 50; i++) {
       let date = new Date();
       products.push({
-        id: i,
-        productName: faker.commerce.productName(),
-        departmentName: faker.commerce.department(),
-        price: faker.commerce.price(),
-        stockQuantity: faker.random.number(),
+        productName: 'Roman Candle',
+        departmentName: 'BAM products',
+        price: 4,
+        stockQuantity: 197,
         createdAt: date,
         updatedAt: date
       })
-    }
+      products.push({
+        productName: 'Party Poper',
+        departmentName: 'BAM products',
+        price: 7,
+        stockQuantity: 460,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Sparkler',
+        departmentName: 'BAM products',
+        price: 87,
+        stockQuantity: 9099,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Cake',
+        departmentName: 'BAM products',
+        price: 12,
+        stockQuantity: 0,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Catherine Wheel',
+        departmentName: 'BAM products',
+        price: 13,
+        stockQuantity: 987,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Airbomb',
+        departmentName: 'BAM products',
+        price: 2,
+        stockQuantity: 68,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: "Judas' Belt",
+        departmentName: 'BAM products',
+        price: 13,
+        stockQuantity: 14,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Quarter Stick',
+        departmentName: 'BAM products',
+        price: 21,
+        stockQuantity: 899,
+        createdAt: date,
+        updatedAt: date
+      })
+      products.push({
+        productName: 'Cherry Bomb',
+        departmentName: 'BAM products',
+        price: 7,
+        stockQuantity: 9,
+        createdAt: date,
+        updatedAt: date
+      })
+
+
     return queryInterface.bulkInsert('Products', products, {});
 
   },
