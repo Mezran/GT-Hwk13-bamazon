@@ -23,6 +23,9 @@
     "sequelize": "^5.16.0",
     "sequelize-cli": "^5.5.0"
   },
+  "scripts": {
+  "seed": "sequelize db:seed:all"
+},
   "devDependencies": {
     "faker": "^4.1.0",
     "nodemon": "^1.19.1"
